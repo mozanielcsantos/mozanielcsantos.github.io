@@ -156,6 +156,7 @@ section>* {
 body {
     font-family: var(--font-sans);
     text-align: center;
+    background-color: lightgreen;
 }
 
 h1 {
@@ -187,4 +188,8 @@ p {
     font-size: var(--fs-md);
     line-height: 1.7;
     margin-bottom: 12px;
+}
+
+a {
+    color: darkgreen
 }
