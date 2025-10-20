@@ -156,7 +156,7 @@ section>* {
 body {
     font-family: var(--font-sans);
     text-align: center;
-    background-color: lightgreen;
+    background-color: rgb(188, 244, 174);
 }
 
 h1 {
@@ -191,7 +191,7 @@ p {
 }
 
 a {
-    color: darkgreen
+    color: rgb(247, 250, 247)
 }
 
 /* ============= CSS FOR HERO BLOCK ============= */
