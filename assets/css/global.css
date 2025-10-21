@@ -247,7 +247,8 @@ header {
 }
 
 .hero-text-container h1,
-.hero-text-container h2 {
+.hero-text-container h2,
+.hero-text-container h3 {
     line-height: 1.2;
     color: #fff;
     text-shadow: 2px 2px #222;
@@ -333,14 +334,14 @@ header {
 .hero-bg-media * {
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 52%;
 }
 
 .bg-overlay {
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 0;
+    bottom: 48%;
     left: 0;
     z-index: 1;
     background-image: linear-gradient(rgba(29, 38, 113, 0.7), rgba(195, 55, 100, 0.3));
