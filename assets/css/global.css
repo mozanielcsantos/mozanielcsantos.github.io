@@ -1,3 +1,5 @@
+/*  Mozaniel Clementino dos Santos (Student ID: 76266) */
+
 /*  ============= WEB BROWSER RESETS ============ */
 * {
     margin: 0;
@@ -160,7 +162,7 @@ body {
 }
 
 h1 {
-    font-size: var(--fs-xxxl);
+    font-size: var(--fs-xxl);
     line-height: 1.2;
     text-align: center;
     font-weight: normal;
@@ -182,6 +184,16 @@ h3 {
     margin-bottom: 4px;
     line-height: 1.2;
     text-transform: uppercase;
+}
+
+h4 {
+    font-size: var(--fs-md);
+    line-height: 1.2;
+    margin-top: 42px;
+    margin-bottom: 16px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: rgb(247, 250, 247)
 }
 
 p {
@@ -206,7 +218,7 @@ header {
     /* Optionally, centre child div horizontally */
     text-align: center;
     /* Purple to orange */
-    background-image: linear-gradient(90deg, #ff00cc, #333399);
+    background-image: linear-gradient(90deg, #020202, #333399);
     position: relative;
 }
 
@@ -256,7 +268,7 @@ header {
 
 /* Element class */
 .change-background-color {
-    background-color: red;
+    background-color: rgb(13, 0, 255);
     animation-name: bg-change;
     animation-duration: 4s
 }
@@ -334,17 +346,17 @@ header {
 .hero-bg-media * {
     object-fit: cover;
     width: 100%;
-    height: 52%;
+    height: 50%;
 }
 
 .bg-overlay {
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 48%;
+    bottom: 50%;
     left: 0;
     z-index: 1;
-    background-image: linear-gradient(rgba(29, 38, 113, 0.7), rgba(195, 55, 100, 0.3));
+    background-image: linear-gradient(rgba(29, 38, 113, 0.7), rgba(144, 123, 223, 0.3));
 }
 
 /* ======== END CSS FOR HERO BLOCK ======== */
